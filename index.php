@@ -4,11 +4,15 @@
  */
 
 //begin the user authentification process
-session_start();
+session_start(); // starts session
 
-//connect to thye database
+//connect to the database
 
-//connect to the model
+//require the model
+
+require ("model /database-connection.php");
+require ("model /database-functions.php");
+
 
 //get request from the user
 
